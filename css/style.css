@@ -105,6 +105,14 @@ main { /* main */
   background-color: #0ff;
 }
 
+main .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
 main .main-images {
   display: flex;
   align-items: center;
