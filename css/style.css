@@ -102,7 +102,6 @@ main { /* main */
   align-items: center;
   gap: 2rem;
   margin-top: 1rem;
-  background-color: #0ff;
 }
 
 main .info {
@@ -153,4 +152,31 @@ main .quote {
 
 .quote h2 {
   align-self: flex-end;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  display: flex;
+  border: none;
+  width: 80%;
+  padding: 2rem 4rem;
+  border-radius: 0.4rem;
+  justify-content: space-between;
+}
+
+.sign-up h1, .sign-up p {
+  color: #fff;
+}
+
+.sign-up p {
+  font-size: 0.8rem;
+}
+
+.sign-up button {
+  font-size: 1rem;
+  padding: 4px 16px;
+  border-radius: 0.4rem;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #3882F6;
 }
