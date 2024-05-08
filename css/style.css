@@ -96,7 +96,7 @@ section button {
 }
 
 main { /* main */
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,11 +107,14 @@ main { /* main */
 
 main .main-images {
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 0.8rem;
+  width: 100%;
 }
 
 .main-images figure {
-  width: 8rem;
+  width: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
