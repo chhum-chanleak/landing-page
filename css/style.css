@@ -11,7 +11,7 @@
   height: auto;
 }
 
-header {
+header { /* header */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,3 +88,33 @@ section button {
   width: 100%;
 }
 
+main { /* main */
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+main .main-images {
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.main-images figure {
+  width: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-images figcaption {
+  width: 6rem;
+}
+
+.main-images img {
+  border: 2px solid #3882f6;
+  border-radius: 0.4rem;
+}
