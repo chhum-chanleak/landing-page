@@ -52,7 +52,7 @@ header .header-bottom {
 }
 
 .header-bottom section {
-  width: 16rem;
+  width: 20rem;
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
@@ -76,8 +76,8 @@ section button {
 .header-bottom .image {
   background-color: #aaa;
   border-radius: 0.4rem;
-  height: 16vh;
-  width: 52vw;
+  height: 12rem;
+  width: 28rem;
   display: flex;
   justify-content: center;
   align-items: center;
