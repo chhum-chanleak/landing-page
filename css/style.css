@@ -21,15 +21,20 @@ header { /* header */
   align-items: center;
   background-color: #1F2937;
   color: #fff;
-  height: 32vh;
+  height: 36vh;
   gap: 4rem;
+  padding: 0 8rem 4rem;
+  width: 100%;
 }
 
 header .header-top {
   display: flex;
-  width: 80%;
   justify-content: space-between;
   padding-top: 1rem;
+  background-color: #f9f;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
 }
 
 .header-top .header-logo {
@@ -49,10 +54,10 @@ header .header-top {
 
 header .header-bottom {
   display: flex;
-  width: 80%;
   justify-content: space-between;
   align-items: flex-start;
   gap: 2rem;
+  width: 100%;
 }
 
 .header-bottom section {
