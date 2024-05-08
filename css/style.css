@@ -141,16 +141,23 @@ main .quote {
   padding: 4rem 8rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem
+}
+
+.quote q, .quote h2 {
+  width: 60%;
 }
 
 .quote q {
   font-size: 36px;
   font-style: italic;
-  color: #1F2937
+  color: #5b5555;
 }
 
 .quote h2 {
-  align-self: flex-end;
+  align-self: center;
 }
 
 .sign-up {
