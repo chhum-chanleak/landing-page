@@ -137,3 +137,20 @@ main .main-images {
   border: 2px solid #3882f6;
   border-radius: 0.4rem;
 }
+
+main .quote {
+  background-color: #E5E7EB;
+  padding: 4rem 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote q {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937
+}
+
+.quote h2 {
+  align-self: flex-end;
+}
